@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+   
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+   
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1>Mobile Hub</h1>
+        <p class="navlinks">
+            <a href="index.html">Home</a>
+            <a href="collection.html">Collection</a>
+            <a href="contact.html">Contact</a>
+        </p>
+        
+        <div class="toogles" onclick="shownav()"> <!-- Corrected onclick function call -->
+            <i class="fas fa-bars"></i> <!-- Use fas for solid icons in Font Awesome 6 -->
+        </div>
+    </nav>
+
+    <!-- Side Navbar -->
+    <div class="sidenavbar">
+        <p style="text-align: right;" onclick="closenav()"> <!-- Added onclick function for closing -->
+            <i class="fas fa-times"></i>
+        </p>
+
+        <p class="sidenavlinks">
+            <a href="#" class="snbl">Home</a>
+            <a href="#" class="snbl">Collection</a>
+            <a href="#" class="snbl">Contact</a>
+        </p>
+    </div>
+
+
+    <div class="product">
+        <form action="" class="productsearch">
+            <input type="text" placeholder="search" id="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+
+        </form>
+
+        <div class="productsection" id="productimg">
+
+            <div class="productimage1">
+                <img src="http://source.unsplash.com/random/300x300/?fashion?1" alt="">
+                <p>availabile</p>
+            </div>
+            <div class="productimage1">
+                <img src="http://source.unsplash.com/random/300x300/?fashion?2" alt="">
+                <p>want</p>
+            </div>
+            <div class="productimage1">
+                <img src="http://source.unsplash.com/random/300x300/?fashion?3" alt="">
+                <p>explore</p>
+            </div>
+            <div class="productimage1">
+                <img src="http://source.unsplash.com/random/300x300/?fashion?4" alt="">
+                <p>new comes</p>
+            </div>
+            <div class="productimage1">
+                <img src="http://source.unsplash.com/random/300x300/?fashion?5" alt="">
+                <p>trending</p>
+            </div>
+            <div class="productimage1">
+                <img src="http://source.unsplash.com/random/300x300/?fashion?6" alt="">
+                <p>updated</p>
+            </div>
+            <div class="productimage1">
+                <img src="http://source.unsplash.com/random/300x300/?fashion?7" alt="">
+                <p>availabile</p>
+            </div>
+            <div class="productimage1">
+                <img src="http://source.unsplash.com/random/300x300/?fashion?8" alt="">
+                <p>availabile</p>
+            </div>
+           
+           
+
+        </div>
+
+    </div>
+
+
+
+
+<!--footer-->
+
+<div class="footer">
+    <div class="footercontainer">
+        <div class="footerbox">
+            <h2 class="footheading">Mobile hub</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum impedit, nulla repellendus nostrum dolores necessitatibus assumenda alias reprehenderit exercitationem praesentium distinctio beatae vel. Pariatur architecto officia modi ex accusantium totam!</p>
+            <div class="footericne">
+                <i class="fa-brands fa-instagram" style="color: white;"></i>
+                <i class="fa-brands fa-twitter" style="color: white;"></i>
+                <i class="fa-brands fa-facebook" style="color: white;"></i>
+
+            </div>
+        </div>
+    </div>
+    <br>
+     <p>@sanjaikanna543@gmail.com</p>
+
+</div>
+
+
+
+
+
+
+ 
+
+     
+
+
+        
+       
+
+    
+
+
+    <!-- External JavaScript -->
+    <script src="collection.js"></script> <!-- Corrected script source path -->
+</body>
+</html>
